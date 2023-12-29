@@ -1,0 +1,39 @@
+.body   {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+}
+
+.navigation, a{
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: 0;
+
+}
+
+/* Input section */
+
+.input-luas-segitiga {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.katik-input {
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    
+
+}
